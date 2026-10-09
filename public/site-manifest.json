@@ -1,0 +1,14 @@
+{
+  "name": "SHOPY Atelier — Download",
+  "short_name": "SHOPY",
+  "description": "Download the SHOPY Atelier Android app.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F4F4F2",
+  "theme_color": "#F4F4F2",
+  "icons": [
+    { "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

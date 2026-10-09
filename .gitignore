@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+npm-debug.log*
+.env*.local
+.vercel
+# The APK is intentionally committed so Vercel serves it from /shopy.apk
+!public/shopy.apk
