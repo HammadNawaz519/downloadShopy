@@ -33,7 +33,7 @@ function DownloadButton() {
 // A miniature SHOPY storefront rendered inside a device frame (not a photo).
 function PhoneMock() {
   return (
-    <div className="relative lg:translate-y-24">
+    <div className="relative">
       <div className="absolute -inset-6 sm:-inset-10 -z-10 bg-gradient-to-br from-shopy-surface via-transparent to-shopy-muted/20 blur-2xl opacity-70" />
       <div className="animate-floaty">
         <div className="mx-auto w-[240px] sm:w-[300px] aspect-[9/19] rounded-[2.9rem] border border-shopy-muted/40 bg-shopy-light shadow-soft ring-1 ring-white/50 overflow-hidden relative">
