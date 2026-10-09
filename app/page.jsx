@@ -1,4 +1,4 @@
-import { Download, Search, ShoppingBag, Check, ShieldCheck } from "lucide-react";
+import { Download, Search, ShoppingBag, ShieldCheck } from "lucide-react";
 import Reveal from "../components/Reveal";
 
 const APK = "/shopy.apk";
@@ -135,13 +135,6 @@ export default function Page() {
             <div className="font-serif text-lg sm:text-xl tracking-[0.18em] text-shopy-ink">
               SHOPY<span className="text-shopy-muted">.</span>
             </div>
-            <a
-              href="#download"
-              className="inline-flex items-center gap-2 text-[11px] sm:text-xs uppercase tracking-[0.2em] font-medium text-shopy-dark hover:text-shopy-ink transition-colors"
-            >
-              <Download className="w-4 h-4" />
-              Download
-            </a>
           </div>
         </div>
       </header>
@@ -163,18 +156,8 @@ export default function Page() {
                 keeps the store with you — even without a connection.
               </p>
 
-              <div className="mt-8 sm:mt-9 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-5">
+              <div className="mt-8 sm:mt-9">
                 <DownloadButton />
-                <span className="text-[11px] text-shopy-muted/80 uppercase tracking-[0.2em] sm:py-2">
-                  Free · For Android
-                </span>
-              </div>
-
-              <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2">
-                <span className="inline-flex items-center gap-2 text-xs text-shopy-dark/60">
-                  <Check className="w-3.5 h-3.5 text-shopy-dark" />
-                  Server-secured
-                </span>
               </div>
             </div>
           </Reveal>
